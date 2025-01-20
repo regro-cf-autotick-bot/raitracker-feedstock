@@ -38,6 +38,10 @@ test:
   requires:
     - pip
     - python {{ python_min }}
+    - torchmetrics==0.7
+    - tensorflow
+    - torch
+    - pytorch-lightning==1.7
 
 about:
   home: https://github.com/microsoft/responsible-ai-toolbox-tracker
